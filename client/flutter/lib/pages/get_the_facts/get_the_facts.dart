@@ -26,25 +26,13 @@ class GetTheFacts extends StatelessWidget {
                           CarouselItem(
                             color: Color.fromRGBO(51, 102, 204, 1),
                             message:
-                                "Pneumonia vaccines <b pink>do not</b> protect against the new coronavirus",
+                                "It <b pink>is not</b> easier for COVID-19 to spread in hot and humid climates",
                             showLearnMore: true,
                           ),
                           CarouselItem(
                             color: Color.fromRGBO(80, 133, 240, 1),
                             message:
-                                "Pneumonia vaccines <b pink>do not</b> protect against the new coronavirus",
-                            showLearnMore: true,
-                          ),
-                          CarouselItem(
-                            color: Color.fromRGBO(51, 102, 204, 1),
-                            message:
-                                "Pneumonia vaccines <b pink>do not</b> protect against the new coronavirus",
-                            showLearnMore: true,
-                          ),
-                          CarouselItem(
-                            color: Color.fromRGBO(80, 133, 240, 1),
-                            message:
-                                "Pneumonia vaccines <b pink>do not</b> protect against the new coronavirus",
+                                "You <b pink>can not</b> get COVID-19 from mosquito bites",
                             showLearnMore: true,
                           ),
                         ])
@@ -58,18 +46,36 @@ class GetTheFacts extends StatelessWidget {
             ArrowButton(
               onPressed: () => Navigator.of(context).push(MaterialPageRoute(
                   builder: (c) =>
-                      GetTheFactsPage(title: "Facts on Transmission", body: [
+                      GetTheFactsPage(title: "Facts on Prevention", body: [
                         CarouselView(carouselItems: [
                           CarouselItem(
                             color: Color.fromRGBO(51, 102, 204, 1),
                             message:
-                                "Pneumonia vaccines <b pink>do not</b> protect against the new coronavirus",
+                                "Cold weather and snow <b pink>do not</b> kill COVID-19",
+                            showLearnMore: true,
+                          ),
+                          CarouselItem(
+                            color: Color.fromRGBO(51, 102, 204, 1),
+                            message:
+                                "Taking a hot bath <b pink>does not</b> prevent someone from getting COVID-19",
                             showLearnMore: true,
                           ),
                           CarouselItem(
                             color: Color.fromRGBO(80, 133, 240, 1),
                             message:
-                                "Pneumonia vaccines <b pink>do not</b> protect against the new coronavirus",
+                                "Hand dryers <b pink>can not</b> kill the new coronavirus",
+                            showLearnMore: true,
+                          ),
+                          CarouselItem(
+                            color: Color.fromRGBO(51, 102, 204, 1),
+                            message:
+                                "An ultraviolet (UV) disinfection lamp <b pink>does not</b> kill COVID-19",
+                            showLearnMore: true,
+                          ),
+                          CarouselItem(
+                            color: Color.fromRGBO(80, 133, 240, 1),
+                            message:
+                                "Spraying alcohol or chlorine all over your body <b pink>does not</b> kill the new coronavirus",
                             showLearnMore: true,
                           ),
                           CarouselItem(
@@ -79,9 +85,9 @@ class GetTheFacts extends StatelessWidget {
                             showLearnMore: true,
                           ),
                           CarouselItem(
-                            color: Color.fromRGBO(80, 133, 240, 1),
+                            color: Color.fromRGBO(51, 102, 204, 1),
                             message:
-                                "Pneumonia vaccines <b pink>do not</b> protect against the new coronavirus",
+                                "Regularly rinsing your nose with saline <b pink>does not help</b> prevent infection with the new coronavirus",
                             showLearnMore: true,
                           ),
                         ])
